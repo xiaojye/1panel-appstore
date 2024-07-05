@@ -11,12 +11,13 @@ services:
       - JENKINS_OPTS=--prefix=${JENKINS_PREFIX}
       - JENKINS_ARGS=--prefix=${JENKINS_PREFIX}
       - ANDROID_HOME=/var/android_sdk
+      - JAVA_HOME=/var/jdks/${JAVA_VERSION}
     volumes:
       - ./data:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
       - ${DOCKER_BINARY}:${DOCKER_BINARY}
-      - ${DIR_JDKS}:/var/jdks
       - ${DIR_ANDROID_SDK}:/var/android_sdk
+      - ${DIR_JDKS}:/var/jdks
     networks:
       - 1panel-network
     labels:
