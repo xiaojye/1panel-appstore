@@ -1,15 +1,15 @@
-name: Jenkins Android
+name: Jenkins for Android
 tags:
     - DevOps
-title: 开源的持续集成工具
-description: 开源的持续集成工具
+title: Jenkins for Android
+description: 适用于Android的Jenkins
 additionalProperties:
-    key: jenkins
-    name: Jenkins
+    key: jenkins-android
+    name: Jenkins for Android
     tags:
         - DevOps
-    shortDescZh: 开源的持续集成工具
-    shortDescEn: Build great things at any scale
+    shortDescZh: 适用于Android的Jenkins
+    shortDescEn: Jenkins for Android
     type: tool
     crossVersionUpdate: false
     limit: 1
