@@ -24,15 +24,22 @@ additionalProperties:
           type: text
         - default: ""
           edit: true
-          envKey: DIR_JDKS
-          labelEn: Jdks挂载路径
-          labelZh: Jdks挂载路径
+          envKey: DIR_ANDROID_SDK
+          labelEn: Android SDK Dir
+          labelZh: Android SDK挂载
           required: true
           type: text
         - default: ""
           edit: true
-          envKey: DIR_ANDROID_SDK
-          labelEn: Android SDK挂载路径
-          labelZh: Android SDK挂载路径
+          envKey: DIR_JDKS
+          labelEn: Jdk versions Dir
+          labelZh: Jdk版本管理挂载
+          required: true
+          type: text
+        - default: ""
+          edit: true
+          envKey: JAVA_VERSION
+          labelEn: JAVA_HOME use version
+          labelZh: JAVA_HOME使用版本
           required: true
           type: text
