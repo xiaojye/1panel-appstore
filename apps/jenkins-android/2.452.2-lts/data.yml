@@ -32,7 +32,7 @@ additionalProperties:
         - default: ""
           edit: true
           envKey: JAVA_VERSION
-          labelEn: JavaE use version
+          labelEn: Java use version
           labelZh: Java默认使用版本
           required: true
           type: text
