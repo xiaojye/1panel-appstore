@@ -31,13 +31,6 @@ additionalProperties:
           type: text
         - default: ""
           edit: true
-          envKey: JAVA_VERSION
-          labelEn: Java use version
-          labelZh: Java默认使用版本
-          required: true
-          type: text
-        - default: ""
-          edit: true
           envKey: DIR_ANDROID_SDK
           labelEn: Android SDK Dir
           labelZh: Android SDK挂载
