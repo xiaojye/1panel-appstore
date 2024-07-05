@@ -1,8 +1,3 @@
-name: Jenkins for Android
-tags:
-    - DevOps
-title: Jenkins for Android
-description: 适用于Android的Jenkins
 additionalProperties:
     key: jenkins-android
     name: Jenkins for Android
