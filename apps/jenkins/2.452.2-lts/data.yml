@@ -15,3 +15,24 @@ additionalProperties:
           required: true
           rule: paramPort
           type: number
+        - default: /jenkins
+          edit: true
+          envKey: JENKINS_PREFIX
+          labelEn: Prefix
+          labelZh: 访问前缀
+          required: false
+          type: text
+        - default: ""
+          edit: true
+          envKey: DIR_JDKS
+          labelEn: Jdks挂载路径
+          labelZh: Jdks挂载路径
+          required: false
+          type: text
+        - default: ""
+          edit: true
+          envKey: DIR_ANDROID_SDK
+          labelEn: Android SDK挂载路径
+          labelZh: Android SDK挂载路径
+          required: false
+          type: text
