@@ -13,7 +13,7 @@ additionalProperties:
     type: tool
     crossVersionUpdate: false
     limit: 1
-    recommend: 0
+    recommend: 1
     website: https://www.jenkins.io/
     github: https://github.com/jenkinsci/jenkins
     document: https://www.jenkins.io/doc/book/
